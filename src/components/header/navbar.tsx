@@ -1,3 +1,4 @@
+import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 import Link from "next/link";
 
 export function NavBar() {
@@ -6,6 +7,22 @@ export function NavBar() {
       <Link className="uppercase font-bold text-md items-center" href="/">
         Sushi Store
       </Link>
+
+      <div className="flex flex-center items-center justify-center gap-10">
+        <Link className="uppercase font-bold text-md " href="/">
+          Cart
+        </Link>
+        <SignedIn>
+          <UserButton />
+        </SignedIn>
+        <SignedOut>
+          <SignInButton mode="modal">
+            <button className="uppercase rounded-md border-2 border-gray-500 px-3 py-2 ">
+              Fazer Login
+            </button>
+          </SignInButton>
+        </SignedOut>
+      </div>
     </nav>
   );
 }

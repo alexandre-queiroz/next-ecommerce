@@ -20,19 +20,25 @@ export function Carrosel({ category }: { category: string }) {
         }}
       >
         <CarouselContent className="gap-10 xl:gap-6 ml-4">
-          <CarouselItem className="relative min-h-72 backdrop-blur-lg bg-white/5 m-0 p-0 sm:basis-1/2 md:basis-2/4 lg:basis-[19.5%] rounded-md overflow-hidden shadow-lg">
+          <CarouselItem className="relative min-h-[17rem] backdrop-blur-lg bg-white/5 m-0 p-0 sm:basis-1/2 md:basis-2/4 lg:basis-[19.5%] rounded-md overflow-hidden shadow-lg">
             <CardA />
           </CarouselItem>
-          <CarouselItem className="relative min-h-72 backdrop-blur-lg bg-white/5 m-0 p-0 sm:basis-1/2 md:basis-2/4 lg:basis-[19.5%] rounded-md overflow-hidden shadow-lg">
+          <CarouselItem className="relative min-h-[17rem] backdrop-blur-lg bg-white/5 m-0 p-0 sm:basis-1/2 md:basis-2/4 lg:basis-[19.5%] rounded-md overflow-hidden shadow-lg">
             <CardA />
           </CarouselItem>
-          <CarouselItem className="relative min-h-72 backdrop-blur-lg bg-white/5 m-0 p-0 sm:basis-1/2 md:basis-2/4 lg:basis-[19.5%] rounded-md overflow-hidden shadow-lg">
+          <CarouselItem className="relative min-h-[17rem] backdrop-blur-lg bg-white/5 m-0 p-0 sm:basis-1/2 md:basis-2/4 lg:basis-[19.5%] rounded-md overflow-hidden shadow-lg">
             <CardA />
           </CarouselItem>
-          <CarouselItem className="relative min-h-72 backdrop-blur-lg bg-white/5 m-0 p-0 sm:basis-1/2 md:basis-2/4 lg:basis-[19.5%] rounded-md overflow-hidden shadow-lg">
+          <CarouselItem className="relative min-h-[17rem] backdrop-blur-lg bg-white/5 m-0 p-0 sm:basis-1/2 md:basis-2/4 lg:basis-[19.5%] rounded-md overflow-hidden shadow-lg">
             <CardA />
           </CarouselItem>
-          <CarouselItem className="relative min-h-72 backdrop-blur-lg bg-white/5 m-0 p-0 sm:basis-1/2 md:basis-2/4 lg:basis-[19.5%] rounded-md overflow-hidden shadow-lg">
+          <CarouselItem className="relative min-h-[17rem] backdrop-blur-lg bg-white/5 m-0 p-0 sm:basis-1/2 md:basis-2/4 lg:basis-[19.5%] rounded-md overflow-hidden shadow-lg">
+            <CardA />
+          </CarouselItem>
+          <CarouselItem className="relative min-h-[17rem] backdrop-blur-lg bg-white/5 m-0 p-0 sm:basis-1/2 md:basis-2/4 lg:basis-[19.5%] rounded-md overflow-hidden shadow-lg">
+            <CardA />
+          </CarouselItem>
+          <CarouselItem className="relative min-h-[17rem] backdrop-blur-lg bg-white/5 m-0 p-0 sm:basis-1/2 md:basis-2/4 lg:basis-[19.5%] rounded-md overflow-hidden shadow-lg">
             <CardA />
           </CarouselItem>
         </CarouselContent>

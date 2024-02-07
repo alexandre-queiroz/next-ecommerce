@@ -3,23 +3,25 @@ import { MapPin } from "../icons/map-pin";
 
 export function CardA() {
   return (
-    <div className="flex flex-col justify-start items-center absolute inset-0 bg-white/5">
-      <div className="relative min-h-36 rounded-md w-full">
+    <div className="flex flex-col justify-start items-center absolute inset-0 bg-white/5 border-gray-600 border-[0.1px] rounded-md">
+      <div className="relative min-h-36 w-full">
         <Image
           src="./img.svg"
           alt="Descrição da imagem"
-          layout="fill"
-          objectFit="cover"
-          className="rounded-md"
+          className="rounded-md object-cover"
+          fill
         />
       </div>
       <div className="text-start w-full pl-4 py-3">
-        <div className="flex flex-row">
+        <div className="flex flex-row items-baseline">
           <MapPin />
-          <h4 className="text-md ml-1"> Tatuapé </h4>
+          <h4 className="text-sm ml-1"> Tatuapé, SP </h4>
         </div>
-        <p className="text-sm">Itens do pedido (descrição)</p>
-        <h2 className="mt-2 text-xl"> R$ 200,00 </h2>
+        <p className="text-sm">Combo de Sushi (30 peças)</p>
+        <h4 className="mt-2 mb-0 text-sm text-muted-foreground line-through">
+          R$ 200,00
+        </h4>
+        <h2 className="text-xl"> R$ 200,00 </h2>
       </div>
     </div>
   );
